@@ -13,17 +13,17 @@ import list_imports
 imports = list_imports.get("file.py")
 ```
 
-from string:
+#### From string
 ```python
 imports = list_imports.parse(open("file.py").read())
 ```
 
-absolute imports only
+#### Absolute imports only
 ```python
 list(filter(lambda i:i[0]!='.',list_imports.get("file.py")))
 ```
 
-cli:
+#### cli
 ```bash
 find . -type f -name "*.py" | xargs python -m list_imports
 find . -type f -name "*.py" | xargs python -m list_imports | awk -F"." '{print $1}'
