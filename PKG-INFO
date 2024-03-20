@@ -2,7 +2,7 @@ Metadata-Version: 2.2
 Name: list-imports
 Version: 2024.03.20
 Summary: list python file imports
-Home-page: https://github.com/andrewp-as-is/list-imports.py
+Home-page: https://github.com/achille-martin/list-imports
 License: Unlicense
 Description:
         # list-imports
