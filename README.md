@@ -7,7 +7,7 @@
 pip install git+https://github.com/achille-martin/list-imports
 ```
 
-#### Examples
+### Examples
 ```python
 import list_imports
 imports = list_imports.get("file.py")
