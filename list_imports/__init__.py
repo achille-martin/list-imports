@@ -19,5 +19,5 @@ def parse(code):
             for subnode in node.names:
                 imports.add(subnode.name)
         if isinstance(node, ast.ImportFrom):
-            imports.add(('.' * node.level) + node.module)
+            imports.add(('.' * node.level) + str(node.module))
     return list(imports)
