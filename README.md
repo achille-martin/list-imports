@@ -1,6 +1,4 @@
-[![](https://img.shields.io/pypi/v/list-imports.svg?maxAge=3600)](https://pypi.org/project/list-imports/)
-[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
-[![](https://github.com/andrewp-as-is/list-imports.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/list-imports.py/actions)
+# list-imports
 
 ### Installation
 ```bash
